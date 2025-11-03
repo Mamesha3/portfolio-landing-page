@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own Landing Page</title>
+     <!-- icons link here -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <h1><span class="bold"><</span>></h1>
+            <h2><span class="bold">M</span>ame</h2>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hum__bar"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <!-- hero section for Home page -->
+     <section id="home">
+         <div class="discription">
+            <h3 class="discribe-myself">
+                Hi, <span class="bold">i</span>'m Mame 👋🏻
+                Front-End Developer & Designer.
+            </h3>
+            <p class="discrip-my-job">
+                <span class="bold">i</span> build responsive, user-friendly
+                web apps with <span class="bold">HTML</span>, CSS, and <span class="bold">Javascript.</span>
+            </p>
+            <button class="for__my-project">View My Work</button>
+         </div>
+        <div class="image-section">
+            <img src="image/mame[1].jpg" alt="developer image here" id="hero__img">
+        </div>
+     </section>
+
+     <!-- for About section -->
+    <section id="about">
+        <h2 class="title">About</h2>  
+        <p class="about__myself">
+            <span class="bold">I</span>'m <span class="bold">a</span> passionate developer <span class="bold">From</span>
+            Etiopia who loves creating clean, iteractive web experiance.
+        </p>
+        <p class="abot__me">
+            <span class="bold">I</span>'ve built <span class="bold">Image Slider</span> only css, countDown apps,
+            <span class="bold">Calculator</span>, and <a href="#projects" class="more">more</a>.
+        </p>
+        <h3 class="list__skill">
+            SKILLS <span class="bold">:</span> 
+            <span class="skills">
+                HTML <span class="bold">|</span> CSS | <span class="bold">Javascript</span> | Git <span class="bold">|</span> Netlify.
+            </span>
+        </h3>
+        <button class="cv">
+            <i class="fa-solid fa-download"> </i>
+            Download CV
+        </button>
+    </section>
+
+    <!-- for my projects sections -->
+    <section id="projects">
+         <h2 class="title">Projects</h2>
+         <div class="projects__boxs">
+            
+              <div class="calculator box">
+                <img src="image/calculator.jpg" alt="calculator app" class="scr_img_calc">
+                <h3 class="apps_title">Calculator</h3>
+                <a href="https://mame-calculator.netlify.app/" target="_blank" class="calculator">view live</a>
+              </div>
+            
+              <div class="countdown box">
+                <img src="image/countdown.jpg" alt="countDown app" class="scr_img_coDown">
+                <h3 class="apps_title">Count-Down</h3>
+                <a href="https://mame-count-down.netlify.app/" target="_blank" class="countdown">view live</a>
+              </div>
+            
+              <div class="imageslider box">
+                <img src="image/image-slider.jpg" alt="imageSlider app" class="scr_img_ImgSlid">
+                <h3 class="apps_title">Image-Slider</h3>
+                <a href="https://css-anchor-image-slider.netlify.app/" target="_blank" class="imagslider">view live</a>
+              </div>
+            
+              <div class="to-do-list box">
+                <img src="image/todo-list.jpg" alt="To-Do-List app" class="scr_img_todolist">
+                <h3 class="apps_title">ToDo-List</h3>
+                <a href="https://mame-to-do-list.netlify.app/" target="_blank" class="to-do-list">view live</a>
+              </div>
+
+              <div class="stop-watch box">
+                <img src="image/stopwatch.jpg" alt="stop-watch app" class="scr_img_stopwatch">
+                <h3 class="apps_title">Stop-Watch</h3>
+                <a href="https://mame-stop-watch.netlify.app/" target="_blank" class="stop-watch">view live</a>
+              </div>
+
+              <div class="guese-app box">
+                <img src="image/gues-app.jpg" alt="guese  app" class="scr_img_guesapp">
+                <h3 class="apps_title">Guese Game</h3>
+                <a href="https://mame-gues-game.netlify.app/" target="_blank" class="stop-watch">view live</a>
+              </div>
+         </div>
+    </section>
+
+    <!-- for contact section -->
+    <section id="contact">
+         <h2 class="title">Contact</h2>
+         <div class="inputs">
+            <input type="text"  id="name" placeholder="Mame.." required>
+            <input type="email"  id="email" placeholder="example@gmail.com" required>
+            <textarea  id="message" placeholder="leave Message Here..."></textarea>
+         </div>
+         <button id="send__btn">Send</button>
+    </section>
+
+    <!-- footer one here -->
+     <footer>
+        <h3 class="footer__title"><span class="bold">2025</span> Toggle Mame | Front-End Developer</h3>
+     </footer>
+
+     <!-- js link -->
+      <script src="script.js"></script>
+</body>
+</html>
