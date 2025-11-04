@@ -118,12 +118,12 @@
     <!-- for contact section -->
     <section id="contact">
          <h2 class="title">Contact</h2>
-         <div class="inputs">
-            <input type="text"  id="name" placeholder="Mame.." required>
-            <input type="email"  id="email" placeholder="example@gmail.com" required>
-            <textarea  id="message" placeholder="leave Message Here..."></textarea>
-         </div>
-         <button id="send__btn">Send</button>
+         <form action="https://formspree.io/f/xzzklkez" method="POST" class="inputs">
+            <input type="text"  id="name" placeholder="Mame.." name="text" required>
+            <input type="email"  id="email" name="email" placeholder="example@gmail.com" required>
+            <textarea  id="message" name="message" placeholder="leave Message Here..."></textarea>
+            <button id="send__btn" type="submit">Send</button>
+         </form>
     </section>
 
     <!-- footer one here -->
