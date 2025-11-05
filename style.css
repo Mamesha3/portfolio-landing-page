@@ -413,13 +413,16 @@ footer {
     }
     #home {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .discription {
-        width: 100%;
+        width: 300px;
     }
     .image-section {
         left: 50%;
         transform: translateX(-50%);
+        margin-top: 2rem;
     }
     .for__my-project {
         width: 150px;
