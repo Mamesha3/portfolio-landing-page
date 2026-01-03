@@ -47,6 +47,9 @@ header {
         opacity: 1;
     }
 }
+.logo > a {
+    text-decoration: none;
+}
 .nav-bar ul {
     display: flex;
     list-style: none;
@@ -395,12 +398,12 @@ footer {
 
 .code_here {
     position: absolute;
-    right: 0;
+    right: -150px;
     top: 100px;
-    transform: translateX(150px);
+    /* transform: translateX(150px); */
 }
 .showhere {
-    transform: translateX(0);
+    right: 0;
 }
 .code_here a {
     color: black;
@@ -421,6 +424,9 @@ footer {
     }
 }
 @media screen and (max-width: 500px) {
+    header {
+        position: sticky;
+    }
     .nav-bar ul {
         display: none;
         position: absolute;
