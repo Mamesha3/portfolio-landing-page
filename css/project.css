@@ -217,6 +217,9 @@ footer.active {
 }
 /* for toggle Button closed */
 @media (max-width: 604px) {
+    body::-webkit-scrollbar, .projects_here::-webkit-scrollbar {
+        display: none;
+    }
     .nav-bar ul{
         display: none;
     }
